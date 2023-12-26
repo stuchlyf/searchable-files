@@ -4,13 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>de.stuchlyf</groupId>
-        <artifactId>searchable-files</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>de.stuchlyf.searchablefiles</groupId>
+        <artifactId>searchable-files-parent</artifactId>
+        <version>0</version>
     </parent>
 
-    <groupId>de.stuchlyf.common</groupId>
+    <groupId>de.stuchlyf.searchablefiles.common</groupId>
     <artifactId>common</artifactId>
+    <version>1</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

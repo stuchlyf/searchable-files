@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>de.stuchlyf</groupId>
-        <artifactId>searchable-files</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>de.stuchlyf.searchablefiles</groupId>
+        <artifactId>searchable-files-parent</artifactId>
+        <version>0</version>
     </parent>
 
     <artifactId>crawler-service</artifactId>
@@ -76,9 +76,9 @@
             <artifactId>crawler4j</artifactId>
         </dependency>
         <dependency>
-            <groupId>de.stuchlyf.common</groupId>
+            <groupId>de.stuchlyf.searchablefiles.common</groupId>
             <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
