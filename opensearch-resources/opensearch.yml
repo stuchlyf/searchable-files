@@ -1,6 +1,0 @@
-plugins:
-  security:
-    ssl:
-      http:
-        enabled: false
-        clientauth_mode: NONE
