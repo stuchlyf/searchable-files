@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>de.stuchlyf.common</groupId>
-    <artifactId>common-classes</artifactId>
+    <artifactId>common</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
