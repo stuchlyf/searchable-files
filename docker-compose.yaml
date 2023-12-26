@@ -1,0 +1,63 @@
+version: '3.11'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3.11.28-management-alpine
+    ports:
+      - '5672:5672/tcp'
+      - '15672:15672/tcp'
+    environment:
+      RABBITMQ_DEFAULT_USER: 'admin'
+      RABBITMQ_DEFAULT_PASS: 'admin'
+    networks:
+      - app-tier
+
+  redis:
+    image: redis:latest
+    command: 'redis-server --save 10 1'
+    ports:
+      - '6379:6379/tcp'
+    volumes:
+      - redis-data:/data:rw
+    networks:
+      app-tier:
+
+  opensearch:
+    image: opensearchproject/opensearch:latest
+    expose:
+      - 9200
+    ports:
+      - '9600:9600/tcp'
+      - '9200:9200/tcp'
+    environment:
+      - 'discovery.type=single-node'
+      - 'DISABLE_SECURITY_PLUGIN=true'
+      - 'DISABLE_INSTALL_DEMO_CONFIG=true'
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data:rw
+    networks:
+      opensearch-tier:
+      app-tier:
+
+  dashboards:
+    image: opensearchproject/opensearch-dashboards:2
+    expose:
+      - 5601
+    ports:
+      - '5601:5601/tcp'
+    environment:
+      DISABLE_SECURITY_DASHBOARDS_PLUGIN: true
+      OPENSEARCH_HOSTS: '["http://opensearch:9200"]'
+    networks:
+      opensearch-tier:
+    depends_on:
+      opensearch:
+        condition: service_started
+
+volumes:
+  opensearch-data:
+  redis-data:
+
+networks:
+  opensearch-tier:
+  app-tier:
