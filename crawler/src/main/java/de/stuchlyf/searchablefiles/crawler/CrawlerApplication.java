@@ -1,4 +1,4 @@
-package de.stuchlyf.crawler;
+package de.stuchlyf.searchablefiles.crawler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

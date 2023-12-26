@@ -1,4 +1,4 @@
-package de.stuchlyf.crawler.crawler;
+package de.stuchlyf.searchablefiles.crawler.crawler;
 
 public enum CrawlerStatus {
     IN_PROGRESS,

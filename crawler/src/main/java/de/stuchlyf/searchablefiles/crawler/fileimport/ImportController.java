@@ -1,7 +1,6 @@
-package de.stuchlyf.crawler.fileimport;
+package de.stuchlyf.searchablefiles.crawler.fileimport;
 
-import de.stuchlyf.crawler.crawler.CrawlerStatus;
-import edu.uci.ics.crawler4j.crawler.CrawlController;
+import de.stuchlyf.searchablefiles.crawler.crawler.CrawlerStatus;
 import jakarta.annotation.Nonnull;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

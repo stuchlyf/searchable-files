@@ -1,6 +1,6 @@
-package de.stuchlyf.crawler.common;
+package de.stuchlyf.searchablefiles.crawler.common;
 
-import de.stuchlyf.crawler.savefile.SaveFileStrategy;
+import de.stuchlyf.searchablefiles.crawler.savefile.SaveFileStrategy;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

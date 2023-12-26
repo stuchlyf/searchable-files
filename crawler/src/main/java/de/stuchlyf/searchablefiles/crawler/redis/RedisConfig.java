@@ -1,4 +1,4 @@
-package de.stuchlyf.crawler.redis;
+package de.stuchlyf.searchablefiles.crawler.redis;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

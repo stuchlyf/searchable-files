@@ -1,4 +1,4 @@
-package de.stuchlyf.crawler.crawler;
+package de.stuchlyf.searchablefiles.crawler.crawler;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;

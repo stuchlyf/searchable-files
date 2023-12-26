@@ -1,4 +1,4 @@
-package de.stuchlyf.crawler.savefile.saveservicestrategy;
+package de.stuchlyf.searchablefiles.crawler.savefile.saveservicestrategy;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

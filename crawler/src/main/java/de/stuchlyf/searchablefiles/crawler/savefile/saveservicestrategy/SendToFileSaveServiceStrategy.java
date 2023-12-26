@@ -1,11 +1,10 @@
-package de.stuchlyf.crawler.savefile.saveservicestrategy;
+package de.stuchlyf.searchablefiles.crawler.savefile.saveservicestrategy;
 
-import de.stuchlyf.crawler.savefile.SaveFileStrategy;
+import de.stuchlyf.searchablefiles.crawler.savefile.SaveFileStrategy;
 import de.stuchlyf.searchablefiles.common.SaveFile;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Service;
 
 @Slf4j

@@ -1,8 +1,8 @@
-package de.stuchlyf.crawler.fileimport;
+package de.stuchlyf.searchablefiles.crawler.fileimport;
 
-import de.stuchlyf.crawler.common.CrawlerServiceProperties;
-import de.stuchlyf.crawler.crawler.CrawlerStatus;
-import de.stuchlyf.crawler.crawler.PdfCrawler;
+import de.stuchlyf.searchablefiles.crawler.common.CrawlerServiceProperties;
+import de.stuchlyf.searchablefiles.crawler.crawler.CrawlerStatus;
+import de.stuchlyf.searchablefiles.crawler.crawler.PdfCrawler;
 import edu.uci.ics.crawler4j.crawler.CrawlController;
 import org.springframework.stereotype.Service;
 

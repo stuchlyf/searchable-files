@@ -1,11 +1,10 @@
-package de.stuchlyf.crawler.savefile.fsstrategy;
+package de.stuchlyf.searchablefiles.crawler.savefile.fsstrategy;
 
-import de.stuchlyf.crawler.common.CrawlerServiceProperties;
-import de.stuchlyf.crawler.savefile.SaveFileStrategy;
+import de.stuchlyf.searchablefiles.crawler.common.CrawlerServiceProperties;
+import de.stuchlyf.searchablefiles.crawler.savefile.SaveFileStrategy;
 import de.stuchlyf.searchablefiles.common.SaveFile;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Service;
 
 import java.io.File;

@@ -1,8 +1,8 @@
-package de.stuchlyf.crawler.crawler;
+package de.stuchlyf.searchablefiles.crawler.crawler;
 
-import de.stuchlyf.crawler.common.CrawlerServiceProperties;
-import de.stuchlyf.crawler.crawler.exception.FileAlreadyDownloadedException;
-import de.stuchlyf.crawler.savefile.SaveFileStrategy;
+import de.stuchlyf.searchablefiles.crawler.common.CrawlerServiceProperties;
+import de.stuchlyf.searchablefiles.crawler.crawler.exception.FileAlreadyDownloadedException;
+import de.stuchlyf.searchablefiles.crawler.savefile.SaveFileStrategy;
 import de.stuchlyf.searchablefiles.common.SaveFile;
 import edu.uci.ics.crawler4j.crawler.Page;
 import edu.uci.ics.crawler4j.crawler.WebCrawler;

@@ -1,4 +1,4 @@
-package de.stuchlyf.crawler.savefile;
+package de.stuchlyf.searchablefiles.crawler.savefile;
 
 
 import de.stuchlyf.searchablefiles.common.SaveFile;
