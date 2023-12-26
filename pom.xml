@@ -18,7 +18,7 @@
 
     <modules>
         <module>crawler-service</module>
-        <module>pdf2text</module>
+        <module>pdf2text-service</module>
         <module>save-file-service</module>
         <module>common</module>
     </modules>

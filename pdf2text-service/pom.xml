@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>pdf2text</artifactId>
+    <artifactId>pdf2text-service</artifactId>
 
     <properties>
         <java.version>21</java.version>
