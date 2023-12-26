@@ -1,4 +1,4 @@
-package de.stuchlyf.savefileservice;
+package de.stuchlyf.searchablefiles.savefileservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

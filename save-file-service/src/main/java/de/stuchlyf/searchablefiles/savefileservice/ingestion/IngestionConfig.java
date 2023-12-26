@@ -1,4 +1,4 @@
-package de.stuchlyf.savefileservice.ingestion;
+package de.stuchlyf.searchablefiles.savefileservice.ingestion;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

@@ -1,4 +1,4 @@
-package de.stuchlyf.savefileservice.pdf2txt;
+package de.stuchlyf.searchablefiles.savefileservice.pdf2txt;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

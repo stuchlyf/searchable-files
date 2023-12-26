@@ -1,8 +1,7 @@
-package de.stuchlyf.savefileservice.ingestion;
+package de.stuchlyf.searchablefiles.savefileservice.ingestion;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.stuchlyf.searchablefiles.common.IngestionFile;
 import de.stuchlyf.searchablefiles.common.SaveFile;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

@@ -1,7 +1,6 @@
-package de.stuchlyf.savefileservice.ingestion;
+package de.stuchlyf.searchablefiles.savefileservice.ingestion;
 
-import de.stuchlyf.savefileservice.conversion.ConversionStrategy;
-import de.stuchlyf.savefileservice.opensearch.OpenSearchAdapter;
+import de.stuchlyf.searchablefiles.savefileservice.conversion.ConversionStrategy;
 import de.stuchlyf.searchablefiles.common.IngestionFile;
 import de.stuchlyf.searchablefiles.common.SaveFile;
 import lombok.extern.slf4j.Slf4j;

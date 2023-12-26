@@ -1,6 +1,6 @@
-package de.stuchlyf.savefileservice.opensearch;
+package de.stuchlyf.searchablefiles.savefileservice.opensearch;
 
-import de.stuchlyf.savefileservice.common.SaveFileServiceProperties;
+import de.stuchlyf.searchablefiles.savefileservice.common.SaveFileServiceProperties;
 import lombok.RequiredArgsConstructor;
 import org.opensearch.client.RestHighLevelClient;
 import org.opensearch.data.client.orhlc.AbstractOpenSearchConfiguration;

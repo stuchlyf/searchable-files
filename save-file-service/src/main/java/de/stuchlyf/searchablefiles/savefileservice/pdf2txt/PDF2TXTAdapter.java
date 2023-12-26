@@ -1,6 +1,6 @@
-package de.stuchlyf.savefileservice.pdf2txt;
+package de.stuchlyf.searchablefiles.savefileservice.pdf2txt;
 
-import de.stuchlyf.savefileservice.common.SaveFileServiceProperties;
+import de.stuchlyf.searchablefiles.savefileservice.common.SaveFileServiceProperties;
 import de.stuchlyf.searchablefiles.common.IngestionFile;
 import de.stuchlyf.searchablefiles.common.SaveFile;
 import org.springframework.beans.factory.annotation.Qualifier;

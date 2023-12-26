@@ -1,6 +1,6 @@
-package de.stuchlyf.savefileservice.opensearch;
+package de.stuchlyf.searchablefiles.savefileservice.opensearch;
 
-import de.stuchlyf.savefileservice.common.SaveFileServiceProperties;
+import de.stuchlyf.searchablefiles.savefileservice.common.SaveFileServiceProperties;
 import de.stuchlyf.searchablefiles.common.IngestionFile;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

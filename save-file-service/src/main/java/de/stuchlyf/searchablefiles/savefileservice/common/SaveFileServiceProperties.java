@@ -1,4 +1,4 @@
-package de.stuchlyf.savefileservice.common;
+package de.stuchlyf.searchablefiles.savefileservice.common;
 
 import lombok.AccessLevel;
 import lombok.Getter;

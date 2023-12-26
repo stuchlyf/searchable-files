@@ -1,4 +1,4 @@
-package de.stuchlyf.savefileservice.conversion;
+package de.stuchlyf.searchablefiles.savefileservice.conversion;
 
 import org.springframework.context.annotation.Configuration;
 
