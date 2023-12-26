@@ -17,7 +17,7 @@
     <description>searchable-files</description>
 
     <modules>
-        <module>crawler</module>
+        <module>crawler-service</module>
         <module>pdf2text</module>
         <module>save-file-service</module>
         <module>common</module>
